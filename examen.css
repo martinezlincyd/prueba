@@ -1,0 +1,68 @@
+.carrusel-contenedor{
+    width: 1250px;
+    overflow-x: auto;
+    white-space:nowrap;
+    
+
+
+}
+
+.carrusel-despliegue{
+    display: inline-block;
+    
+    
+}
+.carrusel-despliegue img{
+    width: 500px;
+    display: inline-block;
+    height: 400px;
+}
+.carrusel-contenedor::-webkit-scrollbar{
+    height: 10px;
+    background-color: blue;
+}
+
+.carrusel-contenedor::-webkit-scrollbar-thumb{
+    background-color: #0E1627;
+    border-radius:35px;
+}
+
+h1{
+    color: bisque;
+    font-size: 50px;
+    background-color: aquamarine;
+}
+
+form{
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 4px solid #5E3023;
+}
+
+fieldset{
+border-color:#895737;
+margin-bottom: 20px;
+padding: 10px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    color: #603808;
+    font-weight: bold;
+}
+
+legend{
+    color: #5E3023;
+    font-size: 25px;
+}
+
+input,textarea{
+    width: 98%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 3px solid #895737;
+    box-sizing: border-box;
+}
+
